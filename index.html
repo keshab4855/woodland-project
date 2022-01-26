@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- CDN link for bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+
+    <!-- Links for LATO font family -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <!-- Link for css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Woodland | Extraordinary experience for people</title>
+  </head>
+
+  <body>
+    <!-- HEADER PART -->
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#about" class="navigation__link main-nav-link"
+              ><span>01</span>About Woodland</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#features" class="navigation__link main-nav-link"
+              ><span>02</span>Your benefits</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#section-tours" class="navigation__link main-nav-link"
+              ><span>03</span>Popular stays</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#stories" class="navigation__link main-nav-link"
+              ><span>04</span>Stories</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#booking" class="navigation__link main-nav-link"
+              ><span>05</span>Book now</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header">
+      <div class="header__logo-box">
+        <img src="img/logo.png" alt="Logo" class="header__logo" />
+      </div>
+
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Woodland</span>
+          <span class="heading-primary--sub">enjoy a luxury experience</span>
+        </h1>
+
+        <a href="#section-tours" class="btn btn--white btn--animated"
+          >Discover Your Stay</a
+        >
+      </div>
+    </header>
+
+    <!-- ABOUT PART -->
+    <main>
+      <section class="section-about" id="about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Breathtaking views for Nature lover</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              You're going to fall in love with nature
+            </h3>
+            <p class="paragraph">
+              Nature is an awesome backdrop to so many special and everyday
+              moments in our lives. Imagine lying in soft green grass, watching
+              wispy white clouds drift across a cornflower blue sky which can be
+              gained through our hotels.
+            </p>
+
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Live adventures like you never have before
+            </h3>
+            <p class="paragraph">
+              Most of the people are living in artificially created world but in
+              our remote hotels you can fully experience the adventures in
+              nature you have never experienced.
+            </p>
+
+            <a href="#" class="btn-text">Learn more &rarr;</a>
+          </div>
+          <div class="col-1-of-2">
+            <div class="composition">
+              <img
+                srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 1"
+                class="composition__photo composition__photo--p1"
+                src="img/nat-1-large.jpg"
+              />
+
+              <img
+                srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 2"
+                class="composition__photo composition__photo--p2"
+                src="img/nat-2-large.jpg"
+              />
+
+              <img
+                srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 3"
+                class="composition__photo composition__photo--p3"
+                src="img/nat-3-large.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES PART -->
+      <section class="section-features" id="features">
+        <div class="row">
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="bi bi-emoji-heart-eyes feature-box__icon"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                BEST EXPERIENCE
+              </h3>
+              <p class="feature-box__text">
+                We have the best faciliated and made at international level
+                hotels at different locations giving the best experience.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="bi bi-tree-fill feature-box__icon"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Enjoy Nature
+              </h3>
+              <p class="feature-box__text">
+                Our hotels are mostly situated and made with the plan of giving
+                the full experience of nature to the peoples.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="bi bi-shield-lock-fill feature-box__icon"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                feel full secure
+              </h3>
+              <p class="feature-box__text">
+                We keep clients security as top priority and our top security
+                service are monitoring each and every part 24/7.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="bi bi-music-note-list feature-box__icon"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                ENTERTAINMENT
+              </h3>
+              <p class="feature-box__text">
+                We have many entertainment facilities which can be accessed
+                freely and some of them are premium.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CHOICES PART -->
+      <section class="section-tours" id="section-tours">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Most popular stays</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1"
+                    >Hotel Annapurna</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>7 days stays</li>
+                    <li>5 queen-sized beds</li>
+                    <li>Free lunch and breakfasts</li>
+                    <li>Swimming pools,sauna</li>
+                    <li>Facilities: Normal</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$297</p>
+                  </div>
+                  <a href="#" class="btn btn--white">Book now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2"
+                    >Hotel Chtiwan</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>10 days stays</li>
+                    <li>7 queen-sized beds</li>
+                    <li>Free lunch and breakfasts</li>
+                    <li>Swimming pools,sauna,gym</li>
+                    <li>Facilities: Moderate</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$497</p>
+                  </div>
+                  <a href="#" class="btn btn--white">Book now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3"
+                    >Hotel Yak & Yeti</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>15 days stays</li>
+                    <li>12 queen-sized beds</li>
+                    <li>Free lunch,breakies & movies</li>
+                    <li>Pools, sauna, gym, massage</li>
+                    <li>Facilities: High</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$897</p>
+                  </div>
+                  <a href="#" class="btn btn--white">Book now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#" class="btn btn--green">Discover all Stays</a>
+        </div>
+      </section>
+
+      <!-- TESTIMONIAL PART -->
+      <section class="section-stories" id="stories">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="img/video.mp4" type="video/mp4" />
+            <source src="img/video.webm" type="video/webm" />
+            Your browser is not supported!
+          </video>
+        </div>
+
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">We make people genuinely happy</h2>
+        </div>
+
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img
+                src="img/nat-8.jpg"
+                alt="Person on a tour"
+                class="story__img"
+              />
+              <figcaption class="story__caption">Priyanka Sharma</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                I had the best week ever at hotel Annapurna
+              </h3>
+              <p>
+                The Hotel Annapurna is an excellent choice for anybody
+                considering hosting their events there. Top level facilities and
+                excellent staff make for a brilliant environment within which to
+                operate.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img
+                src="img/nat-9.jpg"
+                alt="Person on a tour"
+                class="story__img"
+              />
+              <figcaption class="story__caption">Jack Wilson</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                WOW! I want to vist Hotel Chitwan Again
+              </h3>
+              <p>
+                Beyond 5 stars! Stayed last week at Hotel Chitwan. Everything
+                exceeds ones wildest dream of a hotel. On top they have the most
+                wonderful staff, extremely kind and helpful with every wish.
+                This is indeed a place you do not want to leave, and when you do
+                it is with one hope – to come back.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#" class="btn-text">Read all stories &rarr;</a>
+        </div>
+      </section>
+
+      <!-- BOOKING PART -->
+      <section class="section-book" id="booking">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary">Start booking now</h2>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Full name"
+                    id="name"
+                    required
+                  />
+                  <label for="name" class="form__label">Full name</label>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    placeholder="Email address"
+                    id="email"
+                    required
+                  />
+                  <label for="email" class="form__label">Email address</label>
+                </div>
+
+                <div class="form__group u-margin-bottom-medium">
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="small"
+                      name="size"
+                    />
+                    <label for="small" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      Less than 7 days
+                    </label>
+                  </div>
+
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="large"
+                      name="size"
+                    />
+                    <label for="large" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      More than 10 days
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form__group">
+                  <button class="btn btn--green">Next step &rarr;</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Company</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Carrers</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Built by <a href="#" class="footer__link">3SRBK</a> for group
+            project
+            <a href="#" class="footer__link">Hotel Reservation System</a>.
+            Copyright &copy; by 3SRBK.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
